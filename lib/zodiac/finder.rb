@@ -5,6 +5,9 @@ require_relative "finder/version"
 module Zodiac
   module Finder
     class Error < StandardError; end
-    # Your code goes here...
+
+    def self.hello
+      "Hello"
+    end
   end
 end

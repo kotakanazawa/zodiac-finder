@@ -7,7 +7,7 @@ class Zodiac::TestFinder < Minitest::Test
     refute_nil ::Zodiac::Finder::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_it_says_hello
+    assert_equal "Hello", Zodiac::Finder.hello
   end
 end
