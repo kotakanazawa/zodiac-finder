@@ -6,5 +6,9 @@ source "https://rubygems.org"
 gemspec
 
 gem "irb"
-gem "minitest"
 gem "rake"
+
+group :test do
+  gem "minitest"
+  gem "minitest-reporters"
+end

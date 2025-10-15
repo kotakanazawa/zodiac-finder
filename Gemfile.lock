@@ -6,6 +6,8 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    ansi (1.5.0)
+    builder (3.3.0)
     cgi (0.5.0)
     date (3.4.1)
     erb (4.0.4)
@@ -16,6 +18,11 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     minitest (5.26.0)
+    minitest-reporters (1.7.1)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
@@ -29,6 +36,7 @@ GEM
       tsort
     reline (0.6.2)
       io-console (~> 0.5)
+    ruby-progressbar (1.13.0)
     stringio (3.1.7)
     tsort (0.2.0)
 
@@ -39,6 +47,7 @@ PLATFORMS
 DEPENDENCIES
   irb
   minitest
+  minitest-reporters
   rake
   zodiac-finder!
 
