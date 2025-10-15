@@ -3,11 +3,9 @@
 require_relative "finder/version"
 
 module Zodiac
-  module Finder
-    class Error < StandardError; end
+  class Error < StandardError; end
 
-    def self.hello
-      "Hello"
-    end
+  def self.hello
+    "Hello"
   end
 end

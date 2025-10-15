@@ -8,6 +8,6 @@ class Zodiac::TestFinder < Minitest::Test
   end
 
   def test_it_says_hello
-    assert_equal "Hello", Zodiac::Finder.hello
+    assert_equal "Hello", Zodiac.hello
   end
 end
