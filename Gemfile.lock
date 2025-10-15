@@ -38,8 +38,8 @@ PLATFORMS
 
 DEPENDENCIES
   irb
-  minitest (~> 5.16)
-  rake (~> 13.0)
+  minitest
+  rake
   zodiac-finder!
 
 BUNDLED WITH
