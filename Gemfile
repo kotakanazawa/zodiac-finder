@@ -8,6 +8,10 @@ gemspec
 gem "irb"
 gem "rake"
 
+group :development do
+  gem "rubocop"
+end
+
 group :test do
   gem "minitest"
   gem "minitest-reporters"
